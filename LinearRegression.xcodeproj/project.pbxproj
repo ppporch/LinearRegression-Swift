@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		011CE76719E16A3800DA2508 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		01D71C4E19E16489002A76F6 /* LinearRegression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearRegression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -16,7 +15,6 @@
 			isa = PBXGroup;
 			children = (
 				01D71C4E19E16489002A76F6 /* LinearRegression.swift */,
-				011CE76719E16A3800DA2508 /* DataItem.swift */,
 			);
 			sourceTree = "<group>";
 		};
