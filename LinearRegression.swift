@@ -33,7 +33,7 @@ func linearRegression (array: [regressionInput]) -> (intercept: Double, slope: D
         sumY2 += (arrayItem.yValue * arrayItem.yValue)
     }
     slope = ((Double(numberOfItems) * sumXY) - (sumX * sumY)) / ((Double(numberOfItems) * sumX2) - (sumX * sumX))
-    intercept = ((sumY * sumX2 - (slope * sumXY)) / ((Double(numberOfItems) * sumX2) - (sumX * sumX))
+    intercept = ((sumY * sumX2 - (sumX * sumXY)) / ((Double(numberOfItems) * sumX2) - (sumX * sumX))
     correlation = ((Double(numberOfItems) * sumXY) - (sumX * sumY)) / (sqrt(Double(numberOfItems) * sumX2 - (sumX * sumX)) * sqrt(Double(numberOfItems) * sumY2 - (sumY * sumY)))
     return (intercept, slope, correlation)
 }
